@@ -1,8 +1,7 @@
 module.exports = {
 
-    get : function(server, shell){
+    get : function(server){
         var messagge = 'pinggg';
-        //shell.exec('pinger.sh')
         console.log(messagge);
     }
 }
